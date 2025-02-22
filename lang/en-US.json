@@ -1,0 +1,36 @@
+{
+  "languageTag": "en-US",
+  "fileDescription": "Strings for Mouse Out or Enter Plugin",
+  "text": {
+    "plugins": {
+      "massivecube_mouseoutandenter": {
+        "name": "Mouse Out or Enter",
+        "description": "Check is mouse over the canvas or outside the canvas.",
+        "help-url": "https://github.com/armandoalonso/c3IDE",
+        "properties": {
+          "canvasID": {
+            "name": "Canvas Number",
+            "desc": "The current canvas-number. Example: the first Canvas on the html-element is 0, the next 1 etc."
+          }
+        },
+        "aceCategories": {
+          "mouse": "value"
+        },
+        "conditions": {
+          "onmouseout": {
+            "list-name": "Onmouseout",
+            "display-text": "On Mouse Out",
+            "description": "On Mouse Out"
+          },
+          "onmouseenter": {
+            "list-name": "Onmouseenter",
+            "display-text": "On Mouse Enter",
+            "description": "On Mouse Enter"
+          }
+        },
+        "actions": {},
+        "expressions": {}
+      }
+    }
+  }
+}

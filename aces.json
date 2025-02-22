@@ -1,0 +1,22 @@
+{
+  "mouse": {
+    "conditions": [
+      {
+        "id": "onmouseout",
+        "scriptName": "Onmouseout",
+        "highlight": false,
+        "isTrigger": true,
+        "isInvertible": false
+      },
+      {
+        "id": "onmouseenter",
+        "scriptName": "Onmouseenter",
+        "highlight": false,
+        "isTrigger": true,
+        "isInvertible": false
+      }
+    ],
+    "actions": [],
+    "expressions": []
+  }
+}
